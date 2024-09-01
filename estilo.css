@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(117, 151, 117);
+    height: 100vh;
+}
+
+.logo a img {
+    max-width: 600px;
+    max-height: 200px;
+    border-radius: 60px;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 4%;
+}
+
+header>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20PX;
+}
+
+li a:hover {
+    color: rgb(251, 252, 251);
+}
+
+section h3 {
+    padding: 40px 5%;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(195, 248, 164);
+    border-radius: 100px;
+}
+
+section h3 span {
+    color: rgb(26, 73, 40);
+    font-size: 30px;
+    border: 10px;
+}
+
+.imagens a img {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 60px 60px;
+    display: inline-block;
+    border-radius: 70px;
+}
+
+.imagens a img:hover {
+    transform: scale(1.5);
+}
+
+.rodape {
+    text-align: center;
+    padding: 100px 4%;
+}
+
+.rodape:hover {
+    color: white;
+}
+
+.fotografias {
+    text-align: center;
+    padding: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(5, 5, 5);
+}
+
+.fotografias:hover {
+    color: white;
+}
+*{
+    background-color: rgb(117, 151, 117);
+}
+.cabecalho h1{
+    text-align: center;
+    padding: 20px 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.cabecalho h1 span{
+    color: rgb(9, 129, 9);
+    display: grid;
+}
+.cabecalho p{
+    text-align:center;
+    padding: 20px;
+}
+.cabecalho p span{
+    color:rgb(247, 250, 247);
+}
+  
+   

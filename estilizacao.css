@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(154, 195, 248);
+}
+header h1{
+    padding: 40px 4%;
+    text-align: center;
+}
+header h1 span{
+    color:rgb(14, 173, 221);
+}
+header p{
+    padding: 40px;
+    font-size: 20px;
+}
+header div a img{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 50px 4%;
+    border-radius: 100px;
+}
+.fotos p{
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+section div a img{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 50px 4%;
+    border-radius: 100px;
+}
+.rodape h5{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px; 
+}
+.rodape h5:hover{
+    color: white;
+}
